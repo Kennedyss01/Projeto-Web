@@ -1,0 +1,93 @@
+@charset "UTF-8";
+
+div#interface{
+    width: 850px;/*Largura*/
+    background-color: #ffffff ;/*Cor de fundo*/
+    margin: -20 px auto, 0 px auto;/*Tamanho das margens no sentido horário do relógio
+    começando por cima*/
+    box-shadow: 0px, 0px, 10px, rgb(0,0,0,0.5);
+    padding: 10px, 10px, 10px, 10px;/*Margens internas*/
+}
+
+header#cabecalho img#icone{
+    position: absolute;
+    top: 105px;
+    left: 900px;
+}
+
+div#corpo img#icone1{
+    position: absolute;
+    left: 800px;
+}
+div#corpo img#icone2{
+    position: relative;
+    left: 400px;
+    top: -20px;
+}
+div#corpo img#icone3{
+    position: relative;
+    top: -275px;
+    left: 10px;
+}
+div#corpo img#icone4{
+    position: relative;
+    top: -255px;
+    left: 10px;
+}
+
+
+header#cabecalho{
+    border-bottom: 1px #473b3b solid;/*Borda inferior, cor marrom, solida*/
+    height: 100px;
+
+    /*background: url("../_imagens/floor-g5deeb3a34_640.jpg") no-repeat 0px 80px;/*imagem atribuida ao background*/
+}
+
+header#cabecalho h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: #242121;
+    padding: 0px;
+    margin: 0px;
+}
+
+header#cabecalho h2{
+    font-family: 'Times New Roman', Times, serif;
+    color: #555454;
+    font-size: 15pt;
+    padding: 0px;
+    margin: 0px;
+}
+
+nav#menu{
+    display: block;/*Um block pode flutuar sobre a tela*/
+}
+
+nav#menu ul{
+    list-style: none;/*Esconde o marcador*/
+    text-transform: uppercase;/*Tudo maiusculo*/
+    position: absolute;
+    top: -20px;
+    left: 300px;
+}
+
+nav#menu li{
+    display: inline-block;/*Blocos exibidos na mesma linha*/
+    background-color: #8f8f8f;
+    padding: 10px;
+    margin: 2px;
+    transition: background-color 1s;
+}
+
+nav#menu li:hover{
+    background-color: #926857;
+}
+
+nav#menu h1{
+    display: none;
+}
+
+nav#menu a{
+    color: black;
+    text-decoration: none;/*retira o sublinhado*/
+}
