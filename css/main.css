@@ -91,3 +91,38 @@ nav#menu a{
     color: black;
     text-decoration: none;/*retira o sublinhado*/
 }
+
+table#tabel{
+    border: 1px solid #0a0a0a;
+    border-spacing: 0px;
+    margin-left: auto;/*Tabela centralizada*/
+    margin-right: auto;/*Tabela centralizada*/
+}
+
+table#tabel td{
+    border: 1px solid #0a0a0a;/*Uma borda criada para cada célula*/
+    padding: 10px;
+    
+}
+
+table#tabel td.ce{
+    color: #f0eae8;
+    background-color: rgba(44, 14, 2, 0.663);
+    vertical-align: top;
+    text-align: right;
+    font-weight: bold;    
+}
+
+table#tabel td.cd{
+   text-align: left;
+   background-color: #926857;
+   color: #fcfbfb;
+}
+
+table#tabel caption span{
+    display: block;
+    float: right;/*Alinhamento a direita*/
+    color: #0a0a0a;
+    font-size: 12px;
+    margin-top: 10px;/*Margem do topo*/
+}
