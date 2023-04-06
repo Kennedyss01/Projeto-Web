@@ -11,25 +11,26 @@ div#interface{
 
 header#cabecalho img#icone{
     position: absolute;
-    top: 105px;
-    left: 900px;
+    top: 38px;
+    left: 930px;
 }
 
-div#corpo img#icone1{
+section#corpo img#icone1{
     position: absolute;
-    left: 800px;
+    top: 810px;
+    left: 420px;
 }
-div#corpo img#icone2{
+section#corpo img#icone2{
     position: relative;
     left: 400px;
     top: -20px;
 }
-div#corpo img#icone3{
+section#corpo img#icone3{
     position: relative;
     top: -275px;
     left: 10px;
 }
-div#corpo img#icone4{
+section#corpo img#icone4{
     position: relative;
     top: -255px;
     left: 10px;
@@ -125,4 +126,37 @@ table#tabel caption span{
     color: #0a0a0a;
     font-size: 12px;
     margin-top: 10px;/*Margem do topo*/
+}
+
+aside#lateral1 a{
+    text-decoration: none;
+}
+
+aside#lateral1 p{
+    text-align: center;
+    left: -300px;
+}
+
+section#corpo{
+    display: block;/*Mostra como um bloco*/
+    width: 856px;
+    float: left;/*Section flutua pelo lado esquerdo*/
+    border-right: 1px solid #0a0a0a;/*Cria borda à direita do section*/
+    padding-right: 5px;
+}
+
+aside#lateral1{
+    display: block;
+    float: right;
+    width: 440px;
+}
+
+footer#rodape{
+    display: block;
+    clear: both;/*Conteúdo é mostrado fora do section e do aside*/
+       border-top: 1px solid #0a0a0a;
+}
+
+footer#rodape p{
+    text-align: center;
 }
