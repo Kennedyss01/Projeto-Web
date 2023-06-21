@@ -4,10 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/main2.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     
-    <title>Vídeos - Marcenaria online</title>
+    <title id="titulo2">Vídeos - Marcenaria online</title>
+    <style media ="screen">
+        p {
+            text-align: justify;
+            text-indent: 20px;
+        }
+    </style>
     
     <link rel="shortcut icon" href="imagens/Yingfengling-Fl-Chinese-Logo-Wood-Desk.24.png" type="image/x-icon"/>
 
@@ -15,8 +21,8 @@
 <body>
     <script src="js/bootstrap.min.js"></script>
 
-    <h1>Página de Vídeos - Marcenaria Online</h1>
-    <picture>
+    <h1><mark style="background-color:  rgba(164, 231, 202, 0.858)">Página de Vídeos - Marcenaria Online</mark></h1>
+    <!--<picture>
         <source media="(max-widht: 1050px)" srcset="imagens/adalto_1.jpg" type:"image/jpg">
         <img src="imagens/adalto.jpg" alt="armários de cozinha"><br>
     </picture>
@@ -27,18 +33,23 @@
     <picture>
         <source media="(max-widht: 1050px)" srcset="imagens/loja 6_1.jpg" type:"image/jpg">
         <img src="imagens/loja 6.jpg" alt="balcões para loja"><br>
-    </picture>
-        
-    <video widht="600" poster="" controls>
-        <source src="midia/Justice League.mp3" type="audio/mpeg">
-        <source src="midia/Justice League.ogg" type="audio/ogg">
-        <source src="midia/Justice League.wav" type="image/wav">
-        <p>Seu navegador não suporta vídeo</p> <a href="midia/Justice League.mp3"
-        download="Justice League.mp3" type="audio/mpeg"></a></p>
-    </video>
+    </picture>-->
 
-    <p>Nosso principal material para a produção dos móveis é o MDF (Medium Density Fiber). Veja abaixo um vídeo de como este tipo de fibra é produzido:</p>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/Ik11R-pOgJ4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <div class="video-container">
+        <mark style="background-color:  rgba(164, 231, 202, 0.858)">Nosso principal material para a produção dos móveis é o MDF (Medium Density Fiber).
+         Veja abaixo um vídeo de como este tipo de fibra é produzido:</mark></p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Ik11R-pOgJ4" 
+        title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+         encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        
+    </div>    
+        <video widht="600" poster="" controls>
+            <source src="midia/Justice League.mp3" type="audio/mpeg">
+            <source src="midia/Justice League.ogg" type="audio/ogg">
+            <source src="midia/Justice League.wav" type="image/wav">
+            <p>Seu navegador não suporta vídeo</p> <a href="midia/Justice League.mp3"
+            download="Justice League.mp3" type="audio/mpeg"></a></p>
+        </video>
     
 </body>
 </html>

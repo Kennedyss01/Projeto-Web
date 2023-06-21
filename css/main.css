@@ -6,13 +6,14 @@ div#interface{
     margin: -20 px auto, 0 px auto;/*Tamanho das margens no sentido horário do relógio
     começando por cima*/
     box-shadow: 0px, 0px, 10px, rgb(0,0,0,0.5);
+    background-color: #d3c2b897;
     padding: 10px, 10px, 10px, 10px;/*Margens internas*/
 }
 
 header#cabecalho img#icone{
     position: absolute;
-    top: 38px;
-    left: 930px;
+    top: 118px;
+    right: 80px;
 }
 
 section#corpo img#icone1{
@@ -38,26 +39,34 @@ section#corpo img#icone4{
 
 
 header#cabecalho{
+    margin: -10px;
+    padding: 5px;
     border-bottom: 1px #473b3b solid;/*Borda inferior, cor marrom, solida*/
     height: 100px;
+    width: 1600px;
+    background-color: #d6540897;
 
     /*background: url("../_imagens/floor-g5deeb3a34_640.jpg") no-repeat 0px 80px;/*imagem atribuida ao background*/
 }
 
 header#cabecalho h1{
     font-family: 'Times New Roman', Times, serif;
-    font-size: 30px;
-    color: #242121;
+    font-size: 38px;
+    color: #080808;
     padding: 0px;
     margin: 0px;
+    
 }
+
 
 header#cabecalho h2{
     font-family: 'Times New Roman', Times, serif;
-    color: #555454;
-    font-size: 15pt;
+    color: #2b1c15;
+    font-size: 20pt;
     padding: 0px;
     margin: 0px;
+    text-align: left;
+    
 }
 
 nav#menu{
@@ -68,20 +77,20 @@ nav#menu ul{
     list-style: none;/*Esconde o marcador*/
     text-transform: uppercase;/*Tudo maiusculo*/
     position: absolute;
-    top: -20px;
-    left: 300px;
+    top: -15px;
+    left: 800px;
 }
 
 nav#menu li{
     display: inline-block;/*Blocos exibidos na mesma linha*/
-    background-color: #8f8f8f;
+    background-color: #2b1c15;
     padding: 10px;
     margin: 2px;
     transition: background-color 1s;
 }
 
 nav#menu li:hover{
-    background-color: #926857;
+    background-color: #8f8f8f;
 }
 
 nav#menu h1{
@@ -89,7 +98,7 @@ nav#menu h1{
 }
 
 nav#menu a{
-    color: black;
+    color: rgb(244, 242, 242);
     text-decoration: none;/*retira o sublinhado*/
 }
 
@@ -134,29 +143,53 @@ aside#lateral1 a{
 
 aside#lateral1 p{
     text-align: center;
-    left: -300px;
+    left: 110px;
+    top: 33px;
 }
 
 section#corpo{
     display: block;/*Mostra como um bloco*/
-    width: 856px;
+    width: 1036px;
     float: left;/*Section flutua pelo lado esquerdo*/
     border-right: 1px solid #0a0a0a;/*Cria borda à direita do section*/
     padding-right: 5px;
+
 }
 
 aside#lateral1{
+    position: relative;
     display: block;
-    float: right;
-    width: 440px;
+    float: left;
+    width: 340px;
+    left: 50px;
+    
 }
 
 footer#rodape{
     display: block;
     clear: both;/*Conteúdo é mostrado fora do section e do aside*/
-       border-top: 1px solid #0a0a0a;
+    border-top: 1px solid #0a0a0a;
+    background-color: #d6540897;
+    margin: -15px;
+    padding: 3px;
 }
 
 footer#rodape p{
+    text-align: center;
+}
+
+ul#abas{
+    left: 150px;
+}
+
+li#home{
+    right: 80px;
+}
+
+body{
+    background-color: #b79d8f97;
+}
+
+title#titulo2{
     text-align: center;
 }

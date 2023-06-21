@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+body{
+    background: url("/imagens/wood-591631_1920.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
